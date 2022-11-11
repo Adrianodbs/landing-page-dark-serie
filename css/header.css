@@ -47,3 +47,42 @@
 .logo{
   width: 150px;
 }
+
+.header__content{
+  position: relative;
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  width: 100%;
+}
+
+.header__content-text{
+  width: 40%;
+  margin: 90px 0 0 60px;
+  color: #fff;
+}
+
+.header__content-text h2{
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+
+.header__content-text p{
+  opacity: .7;
+  margin-bottom: 25px;
+}
+
+.header__content-text button{
+  background-color: transparent;
+  padding: 8px 16px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: all .3s;
+}
+
+.header__content-text button:hover{
+  background-color: rgb(233, 233, 233);
+}
+
