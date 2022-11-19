@@ -108,7 +108,7 @@
   }
 }
 
-@media screen and (max-width: 570px){
+@media screen and (max-width: 670px){
   .header__nav nav{
     display: flex;
     flex-direction: column;
