@@ -1,17 +1,21 @@
 .header__img{
   width: 100%;
-  position: absolute;
+  height: 115vh;
+  position: fixed;
   opacity: .8;
   top: -80px;
 }
 
 .header__nav{
   opacity: 1;
-  position: relative;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
   display: flex;
-  padding: 30px 60px;
+  padding: 10px 60px 10px;
   align-items: center;
   justify-content: space-between;
+  background-color: rgba(44, 44, 44, 0.507);
 }
 
 .header__nav nav{

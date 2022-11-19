@@ -8,6 +8,7 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   /* font-family: 'Times New Roman', Times, serif; */
+  scroll-behavior: smooth;
 }
 
 a{
