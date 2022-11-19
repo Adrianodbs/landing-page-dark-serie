@@ -14,3 +14,10 @@
 
 //   document.getElementById('radio' + count).checked = true
 // }
+
+const menu = document.querySelector('#menu-nav')
+const hamburguer = document.querySelector('.menu')
+
+hamburguer.addEventListener('click', () => {
+  menu.classList.toggle('hidden')
+})

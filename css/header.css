@@ -90,3 +90,41 @@
   background-color: rgb(233, 233, 233);
 }
 
+.menu{
+  width: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+/* responsivo */
+
+@media screen and (max-width: 768px){
+  .logo{
+    width: 100px;
+  }
+
+  .header__nav a{
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 570px){
+  .header__nav nav{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    background-color: rgba(255, 255, 255, 0.507);
+    padding: 15px;
+    transition: all .5s ease ;
+  }
+
+  .menu{
+    display: block;
+  }
+
+  .header__nav nav.hidden{
+    display: none;
+  }
+}
